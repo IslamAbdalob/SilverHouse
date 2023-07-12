@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+/*!!!HEADER!!!*/
+
+.header__nav {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header__img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.header__list {
+    margin-top: 79px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 811px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+/*!!!MAIN!!!*/
+
+.section__wrapper {
+    margin-top: 38px;
+    background-image: url("../images/backgaruund.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+.section2__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.section2__box {
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 730px;
+    height: 500px;
+    background: #f0f0f0a2;
+}
+
+.section2__minibox {
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 350px;
+    height: 500px;
+    background: #F0F0F0;
+}
+
+.section2__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+}
+
+.section2__text {
+    margin-top: 25px;
+    width: 580px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: grey;
+}
+
+.section2__text2 {
+    margin-top: 25px;
+    width: 276px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: gre;
+}
+
+.sectiontw__link {
+    text-decoration: none;
+    margin-top: 42px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.sectiontw__link:last-child {
+    margin-top: 62px;
+}
+
+/*!!!part2!!!*/
+
+.footer__nav {
+    margin-top: 30px;
+    padding: 15px 40px;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F0F0F0;
+}
+
+.footer__list {
+    list-style-type: none;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.footer__link2 {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+}
